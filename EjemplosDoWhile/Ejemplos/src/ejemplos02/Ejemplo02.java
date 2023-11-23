@@ -33,9 +33,8 @@ public class Ejemplo02 {
 
             System.out.println("Ingrese (s) si desea salir del ciclo ");
             salida = entrada.nextLine();
-
-            
-            
+            if ((salida == "s") || (salida == "si") || (salida == "yes") || (salida == "y"));
+            bandera = false;
 
         } while (bandera); // (bandera==true)
 
